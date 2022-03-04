@@ -23,5 +23,8 @@ public class NewCalculator {
         this.lastResult = dividend % divisor;
         return this.lastResult;
     }
-    
+    public double Multiply(double x, double y){
+        this.lastResult = x * y;
+        return this.lastResult;
+        }
 }
